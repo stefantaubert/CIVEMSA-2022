@@ -1,0 +1,110 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.9388662131519274
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phonemes"
+		xmin = 0.0
+		xmax = 1.9388662131519274
+		intervals: size = 24
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.17
+				text = "AO1"
+			intervals [2]:
+				xmin = 0.17
+				xmax = 0.28
+				text = "Z"
+			intervals [3]:
+				xmin = 0.28
+				xmax = 0.36
+				text = "W"
+			intervals [4]:
+				xmin = 0.36
+				xmax = 0.42
+				text = "AO0"
+			intervals [5]:
+				xmin = 0.42
+				xmax = 0.48
+				text = "L"
+			intervals [6]:
+				xmin = 0.48
+				xmax = 0.54
+				text = "D"
+			intervals [7]:
+				xmin = 0.54
+				xmax = 0.59
+				text = "Z"
+			intervals [8]:
+				xmin = 0.59
+				xmax = 0.64
+				text = "D"
+			intervals [9]:
+				xmin = 0.64
+				xmax = 0.68
+				text = "IH0"
+			intervals [10]:
+				xmin = 0.68
+				xmax = 0.8
+				text = "P"
+			intervals [11]:
+				xmin = 0.8
+				xmax = 0.86
+				text = "AA1"
+			intervals [12]:
+				xmin = 0.86
+				xmax = 0.94
+				text = "R"
+			intervals [13]:
+				xmin = 0.94
+				xmax = 1.08
+				text = "CH"
+			intervals [14]:
+				xmin = 1.08
+				xmax = 1.14
+				text = "ER0"
+			intervals [15]:
+				xmin = 1.14
+				xmax = 1.27
+				text = "F"
+			intervals [16]:
+				xmin = 1.27
+				xmax = 1.33
+				text = "ER0"
+			intervals [17]:
+				xmin = 1.33
+				xmax = 1.39
+				text = "M"
+			intervals [18]:
+				xmin = 1.39
+				xmax = 1.45
+				text = "B"
+			intervals [19]:
+				xmin = 1.45
+				xmax = 1.51
+				text = "IH1"
+			intervals [20]:
+				xmin = 1.51
+				xmax = 1.6
+				text = "L"
+			intervals [21]:
+				xmin = 1.6
+				xmax = 1.68
+				text = "D"
+			intervals [22]:
+				xmin = 1.68
+				xmax = 1.73
+				text = "IH0"
+			intervals [23]:
+				xmin = 1.73
+				xmax = 1.87
+				text = "NG"
+			intervals [24]:
+				xmin = 1.87
+				xmax = 1.9388662131519274
+				text = ""

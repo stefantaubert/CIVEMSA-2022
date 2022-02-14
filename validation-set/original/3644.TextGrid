@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.5280272108843538
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phonemes"
+		xmin = 0.0
+		xmax = 1.5280272108843538
+		intervals: size = 15
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.05
+				text = "F"
+			intervals [2]:
+				xmin = 0.05
+				xmax = 0.13
+				text = "AO1"
+			intervals [3]:
+				xmin = 0.13
+				xmax = 0.21
+				text = "R"
+			intervals [4]:
+				xmin = 0.21
+				xmax = 0.34
+				text = "TH"
+			intervals [5]:
+				xmin = 0.34
+				xmax = 0.51
+				text = "AW1"
+			intervals [6]:
+				xmin = 0.51
+				xmax = 0.63
+				text = "Z"
+			intervals [7]:
+				xmin = 0.63
+				xmax = 0.67
+				text = "AH0"
+			intervals [8]:
+				xmin = 0.67
+				xmax = 0.77
+				text = "N"
+			intervals [9]:
+				xmin = 0.77
+				xmax = 0.88
+				text = "P"
+			intervals [10]:
+				xmin = 0.88
+				xmax = 1.03
+				text = "AW1"
+			intervals [11]:
+				xmin = 1.03
+				xmax = 1.18
+				text = "N"
+			intervals [12]:
+				xmin = 1.18
+				xmax = 1.22
+				text = ""
+			intervals [13]:
+				xmin = 1.22
+				xmax = 1.28
+				text = "D"
+			intervals [14]:
+				xmin = 1.28
+				xmax = 1.48
+				text = "Z"
+			intervals [15]:
+				xmin = 1.48
+				xmax = 1.5280272108843538
+				text = ""

@@ -1,0 +1,134 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 3.0373242630385486
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phonemes"
+		xmin = 0.0
+		xmax = 3.0373242630385486
+		intervals: size = 30
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.05
+				text = "K"
+			intervals [2]:
+				xmin = 0.05
+				xmax = 0.08
+				text = "UH0"
+			intervals [3]:
+				xmin = 0.08
+				xmax = 0.11
+				text = "R"
+			intervals [4]:
+				xmin = 0.11
+				xmax = 0.22
+				text = "V"
+			intervals [5]:
+				xmin = 0.22
+				xmax = 0.34
+				text = "OY1"
+			intervals [6]:
+				xmin = 0.34
+				xmax = 0.5
+				text = "Z"
+			intervals [7]:
+				xmin = 0.5
+				xmax = 0.91
+				text = "IY0"
+			intervals [8]:
+				xmin = 0.91
+				xmax = 0.94
+				text = "ER0"
+			intervals [9]:
+				xmin = 0.94
+				xmax = 1.03
+				text = "M"
+			intervals [10]:
+				xmin = 1.03
+				xmax = 1.13
+				text = "AY1"
+			intervals [11]:
+				xmin = 1.13
+				xmax = 1.18
+				text = "T"
+			intervals [12]:
+				xmin = 1.18
+				xmax = 1.24
+				text = "HH"
+			intervals [13]:
+				xmin = 1.24
+				xmax = 1.28
+				text = "AE1"
+			intervals [14]:
+				xmin = 1.28
+				xmax = 1.36
+				text = "V"
+			intervals [15]:
+				xmin = 1.36
+				xmax = 1.47
+				text = "L"
+			intervals [16]:
+				xmin = 1.47
+				xmax = 1.58
+				text = "AY1"
+			intervals [17]:
+				xmin = 1.58
+				xmax = 1.66
+				text = "V"
+			intervals [18]:
+				xmin = 1.66
+				xmax = 1.73
+				text = "D"
+			intervals [19]:
+				xmin = 1.73
+				xmax = 1.79
+				text = "AH0"
+			intervals [20]:
+				xmin = 1.79
+				xmax = 1.94
+				text = "S"
+			intervals [21]:
+				xmin = 1.94
+				xmax = 1.98
+				text = "EH1"
+			intervals [22]:
+				xmin = 1.98
+				xmax = 2.04
+				text = "N"
+			intervals [23]:
+				xmin = 2.04
+				xmax = 2.17
+				text = "CH"
+			intervals [24]:
+				xmin = 2.17
+				xmax = 2.27
+				text = "ER0"
+			intervals [25]:
+				xmin = 2.27
+				xmax = 2.39
+				text = "IY0"
+			intervals [26]:
+				xmin = 2.39
+				xmax = 2.57
+				text = "ER1"
+			intervals [27]:
+				xmin = 2.57
+				xmax = 2.67
+				text = "L"
+			intervals [28]:
+				xmin = 2.67
+				xmax = 2.79
+				text = "IY0"
+			intervals [29]:
+				xmin = 2.79
+				xmax = 2.99
+				text = "ER0"
+			intervals [30]:
+				xmin = 2.99
+				xmax = 3.0373242630385486
+				text = ""
