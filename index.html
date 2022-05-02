@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Vowel Formant Quality Metric</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Towards a Vowel Formant Based Quality Metric for Text-to-Speech Systems: Measuring Monophthong Naturalness</h1>
+        <p><b>Authors</b>: Sven Albrecht, Rewa Tamboli, Stefan Taubert, Maximilian Eibl, Josef Schmied, Günther Daniel Rey
+        </p>
+        <p><i>Recommendation: The best quality is obtained by listening with headphones.</i></p>
+        <p>We used <a href="https://github.com/stefantaubert/tacotron">Tacotron</a> and <a href="https://github.com/stefantaubert/waveglow">WaveGlow</a> for our synthesis. You can download our Tacotron model <a href="https://tuc.cloud/index.php/s/wSwisBd4TJKbSmF">here</a> and our WaveGlow model <a href="https://tuc.cloud/index.php/s/oKPaLm6fsmP2y4q">here</a>.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h3>Examples</h3>
+      </div>
+    </div>
+
+    <div class="textblock">
+      <div class="row">
+        <div class="col-xs-12">
+          <h4>81</h4>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <b>Phonemes</b>
+          <p>
+            IH0/N/ /S/P/AY1/T/,/HH/AW2/EH1/V/ER0/,/AH0/V/ /HH/IH0/Z/ /P/R/EY1/Z/W/ER2/DH/IY0/ /EH1/F/ER0/T/S/,/P/R/IH1/N/IH0/NG/ /HH/AE1/D/ /S/T/IH1/L/ /HH/W/AH1/N/ /L/AE1/S/ /D/EH2/G/R/AH0/D/EY1/SH/AH0/N/ /T/AH0/ /AH2/N/D/ER0/G/OW1/.
+          </p>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <b>English</b>
+          <p>
+            The North Wind and the Sun were disputing which was the stronger, when a traveler came along wrapped in a
+            warm cloak.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <p><b>Ground truth</b></p>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <p><b>Synthesis</b></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <audio controls>
+            <source src="validation-set/original/81.wav" type="audio/wav">
+          </audio>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <audio controls>
+            <source src="validation-set/inferred/81.wav" type="audio/wav">
+          </audio>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+</body>
+
+</html>
