@@ -32,13 +32,13 @@
         <p><b>Authors</b>: Sven Albrecht, Rewa Tamboli, Stefan Taubert, Maximilian Eibl, Josef Schmied, Günther Daniel Rey
         </p>
         <p><i>Recommendation: The best quality is obtained by listening with headphones.</i></p>
-        <p>We used <a href="https://github.com/stefantaubert/tacotron">Tacotron</a> and <a href="https://github.com/stefantaubert/waveglow">WaveGlow</a> for our synthesis. You can download our Tacotron model <a href="https://tuc.cloud/index.php/s/wSwisBd4TJKbSmF">here</a> and our WaveGlow model <a href="https://tuc.cloud/index.php/s/oKPaLm6fsmP2y4q">here</a>.</p>
+        <p>We used <a href="https://github.com/stefantaubert/tacotron">Tacotron</a> and <a href="https://github.com/stefantaubert/waveglow">WaveGlow</a> for our synthesis. You can download our Tacotron model <a href="https://tuc.cloud/index.php/s/wSwisBd4TJKbSmF/download/98500.pt">here</a> and our WaveGlow model <a href="https://tuc.cloud/index.php/s/yBRaWz5oHrFwigf/download/LJS-v3-580000.pt">here</a>.</p>
       </div>
     </div>
 
     <div class="row">
       <div class="col-xs-12">
-        <h3>Examples</h3>
+        <h3>Sound examples</h3>
       </div>
     </div>
 
@@ -48,38 +48,170 @@
           <h4>81</h4>
         </div>
       </div>
-      
       <div class="row">
         <div class="col-sm-6 col-xs-12">
           <b>Phonemes</b>
           <p>
-            IH0/N/ /S/P/AY1/T/,/HH/AW2/EH1/V/ER0/,/AH0/V/ /HH/IH0/Z/ /P/R/EY1/Z/W/ER2/DH/IY0/ /EH1/F/ER0/T/S/,/P/R/IH1/N/IH0/NG/ /HH/AE1/D/ /S/T/IH1/L/ /HH/W/AH1/N/ /L/AE1/S/ /D/EH2/G/R/AH0/D/EY1/SH/AH0/N/ /T/AH0/ /AH2/N/D/ER0/G/OW1/.
+            IH0 N ␣ S P AY1 T , HH AW2 EH1 V ER0 , AH0 V ␣ HH IH0 Z ␣ P R EY1 Z W ER2 DH IY0 ␣ EH1 F ER0 T S , P R IH1 N IH0 NG ␣ HH AE1 D ␣ S T IH1 L ␣ HH W AH1 N ␣ L AE1 S ␣ D EH2 G R AH0 D EY1 SH AH0 N ␣ T AH0 ␣ AH2 N D ER0 G OW1 .
           </p>
         </div>
         <div class="col-sm-6 col-xs-12">
           <b>English</b>
           <p>
-            The North Wind and the Sun were disputing which was the stronger, when a traveler came along wrapped in a
-            warm cloak.</p>
+            In spite, however, of his praiseworthy efforts, printing had still one last degradation to undergo.</p>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-6 col-xs-12">
           <p><b>Ground truth</b></p>
-        </div>
-        <div class="col-sm-6 col-xs-12">
-          <p><b>Synthesis</b></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6 col-xs-12">
           <audio controls>
             <source src="validation-set/original/81.wav" type="audio/wav">
           </audio>
         </div>
         <div class="col-sm-6 col-xs-12">
+          <p><b>Synthesis</b></p>
           <audio controls>
             <source src="validation-set/inferred/81.wav" type="audio/wav">
+          </audio>
+        </div>
+      </div>
+    </div>
+    
+    <div class="textblock">
+      <div class="row">
+        <div class="col-xs-12">
+          <h4>915</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <b>Phonemes</b>
+          <p>
+            M IH1 S T ER0 ␣ S T ER1 JH IH0 Z ␣ B AO1 R N , S ER1 ␣ JH EY1 M Z ␣ M AE1 K AH0 N T AA2 SH , S ER1 ␣ JH EY1 M Z ␣ S K AA1 R L IH0 T , AE1 N D ␣ W IH1 L Y AH0 M ␣ W IH1 L B ER0 F AO2 R S .
+          </p>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <b>English</b>
+          <p>
+            Mr. Sturges Bourne, Sir James Mackintosh, Sir James Scarlett, and William Wilberforce.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <p><b>Ground truth</b></p>
+          <audio controls>
+            <source src="validation-set/original/915.wav" type="audio/wav">
+          </audio>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <p><b>Synthesis</b></p>
+          <audio controls>
+            <source src="validation-set/inferred/915.wav" type="audio/wav">
+          </audio>
+        </div>
+      </div>
+    </div>
+    
+    <div class="textblock">
+      <div class="row">
+        <div class="col-xs-12">
+          <h4>8774</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <b>Phonemes</b>
+          <p>
+            D ER1 IH0 NG  DH AH0  M AO1 R N IH0 NG  AH0 V  N OW0 V EH1 M B ER0  T W EH1 N IY0 - HH W AH1 N , AO1 Z W AO0 L D  AE1 S K T  F R EY1 ZH ER0  HH W EH1 DH ER0  HH IY1  K UH1 D  R AY1 D  HH OW1 M  W IH0 DH  HH IH1 M  DH AE1 T  AE2 F T ER0 N UW1 N .
+          </p>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <b>English</b>
+          <p>
+            During the morning of November twenty-one, Oswald asked Frazier whether he could ride home with him that afternoon.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <p><b>Ground truth</b></p>
+          <audio controls>
+            <source src="validation-set/original/8774.wav" type="audio/wav">
+          </audio>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <p><b>Synthesis</b></p>
+          <audio controls>
+            <source src="validation-set/inferred/8774.wav" type="audio/wav">
+          </audio>
+        </div>
+      </div>
+    </div>
+    
+    <div class="textblock">
+      <div class="row">
+        <div class="col-xs-12">
+          <h4>10102</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <b>Phonemes</b>
+          <p>
+            F ER0 M  AA0 K T OW1 B ER0  N AY1 N , N AY1 N T IY1 N  S IH1 K S T IY0 - T UW1 , T AH0  M EY1  F AO1 R T IY1 N , N AY1 N T IY1 N  S IH1 K S T IY0 - TH R IY1 .
+          </p>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <b>English</b>
+          <p>
+            from October nine, nineteen sixty-two, to May fourteen, nineteen sixty-three.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <p><b>Ground truth</b></p>
+          <audio controls>
+            <source src="validation-set/original/10102.wav" type="audio/wav">
+          </audio>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <p><b>Synthesis</b></p>
+          <audio controls>
+            <source src="validation-set/inferred/10102.wav" type="audio/wav">
+          </audio>
+        </div>
+      </div>
+    </div>
+    
+    <div class="textblock">
+      <div class="row">
+        <div class="col-xs-12">
+          <h4>12733</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <b>Phonemes</b>
+          <p>
+            B AY1 ␣ D IH0 F AY1 N IH0 NG ␣ R IY0 S P AA2 N S AH0 B IH1 L AH0 T IY0 Z ␣ K L IH1 R L IY0 ␣ AE1 N D ␣ OW1 V ER0 S IY2 IH0 NG ␣ DH EH1 R ␣ EH2 K S AH0 K Y UW1 SH AH0 N .
+          </p>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <b>English</b>
+          <p>
+            by defining responsibilities clearly and overseeing their execution.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <p><b>Ground truth</b></p>
+          <audio controls>
+            <source src="validation-set/original/12733.wav" type="audio/wav">
+          </audio>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <p><b>Synthesis</b></p>
+          <audio controls>
+            <source src="validation-set/inferred/12733.wav" type="audio/wav">
           </audio>
         </div>
       </div>
